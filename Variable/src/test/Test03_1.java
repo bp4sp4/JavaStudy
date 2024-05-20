@@ -50,7 +50,7 @@ public class Test03_1 {
 		System.out.println("x : ");
 		System.out.println("y : ");
 		int a9 = scan.nextInt();
-		int a10 = scan.nextInt();dd
+		int a10 = scan.nextInt();
 		
 		System.out.println("x : " + a10 + " y :" + a9);
 		

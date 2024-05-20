@@ -35,7 +35,7 @@ public class Test03 {
 		}
 		
 		System.out.println("단수 입력하세요.");
-		int dan = scan.nextInt();
+//		int dan = scan.nextInt();
 		
 		// 요런 느낌 
 		System.out.println(dan + "X 1 = "+ (dan * 1 ));
