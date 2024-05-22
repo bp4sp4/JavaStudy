@@ -1,11 +1,25 @@
 # JavaStudy
 ## 부지런히 쓰기 꾸준함이 중요 24/05/20(월) 시작
 
+<h4>24/05/22(수)</h4>
+
+## 반복문 - 횟수 반복 (for)
+
+- 반복문 예시(for)
+<pre>
+  <code>
+    	for(int i = 0; i<5; i++) {
+		System.out.println("Hello world\!");
+	}
+  </code>
+</pre>
+
+
 <h3>24/05/21(화)</h3>
 
-## 반복문 - 횟수 반복
+## 반복문 - 횟수 반복 (while)
 
-- 반복문 예시
+- 반복문 예시(while)
 <pre>
   <code>
     	int weight  = 75;
