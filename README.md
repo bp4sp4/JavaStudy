@@ -3,6 +3,20 @@
 
 <h4>24/05/24</h4>
 
+- 배열 예시
+<pre>
+	<code>
+		int[] numbers = {3, 8, 9, 4, 2, 1, 7, 5};
+		
+        numbers[3] = 6;
+        // 배열 출력
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
+        }
+        System.out.println();
+	</code>
+</pre>
+
 ## Function(함수)
 <h3>함수의 기본 구조</h3>
 - 리턴타입 : 결과형의 자료형
