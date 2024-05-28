@@ -28,7 +28,7 @@ public class Test02 {
             System.out.println("잘못된 인덱스값입니다.");
             sc.close();
             return;
-            //d
+            
         }
 	   for (int number : numbers) {
 		   System.out.print(number + " ");
