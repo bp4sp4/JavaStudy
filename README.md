@@ -3,7 +3,7 @@
 
 <h4>24/05/28</h4>
 
-- 문자열 예시
+String
 - String 관련 유용한 메소드들
 - charAt(index)	문자열의 index번째 문자(char)를 얻는다.	char
 - contains(특정 문자열)	특정 문자열이 포함되어 있는지 확인	boolean
