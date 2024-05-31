@@ -1,6 +1,32 @@
 # JavaStudy
 ## 부지런히 쓰기 꾸준함이 중요 24/05/20(월) 시작
 
+<h4>24/05/31</h4>
+
+Class(클래스)
+- 여러 변수를 묶어서 하나로 관리 하기 위한 설계도
+- 어떤 정보를 어떤 변수에 넣어 사용 할지를 정의
+
+- <pre>
+	<code>
+성적 (과목이름, 점수, 석차)  
+	public class ScoreData {
+	    int score;
+	    String name;
+	    int ranking;
+	}
+	</code>
+</pre>
+- 묶어진 변수들을 속성, field, 멤버 변수(member variable) 라고 한다.
+
+Method(메소드)
+- 메소드는 데이터를 전달 받고, 수행하고, 결과를 돌려 주는 과정
+- 리턴타입: 결과값의 자료형
+
+<h4>24/05/30</h4>
+
+String -> int == integer.parseInt
+int -> String == String.ValueOf("d");
 <h4>24/05/28</h4>
 
 String
