@@ -1,5 +1,39 @@
 # JavaStudy
 ## 부지런히 쓰기 꾸준함이 중요 24/05/20(월) 시작
+
+<h4>24/06/07</h4>
+
+java.lang
+- java 에서 가장 많이 사용 되는 Class 를 모아 놓은 package
+- 따로 import 해주지 않아도 자동으로 포함된다.
+- String, System(println) 등 이 대표적인 java.lang 에 포함된 Class 이다.
+- 다른 java.lang 에 포한된 Class 는 아래 링크를 참조
+
+- 업 캐스팅(Up Casting)
+~~~
+Animal animal = new Dog("누렁이");
+ ~~~
+- 자식 -> 부모 클래스로(위쪽 방향으로) 캐스팅
+- 개를 동물이라고 표현 할 수 있듯이, Animal 을 상속 받은 Dog 은 Animal 로 객체를 저장 할 수 있다.
+- Animal 형태로 객체를 저장 했지만, Dog 객체의 형태를 잃어 버린 것은 아니다.
+- 부모 클래스로 type이 변환된 것이므로
+- 부모 클래스의 메소드를 사용할 수 있다.
+- 부모 클래스에 있는 메소드를 오버라이드 한 메소드를 사용할 수 있다.
+- 자식 클래스에만 있는 메소드는 사용할 수 없다
+
+- 다운 캐스팅 (Down Casting)
+~~~
+Animal animal = new Dog("누렁이");
+
+if (animal instanceof Dog) {
+    Dog dog = (Dog) animal;
+    dog.lash();
+}
+~~~
+- 부모 -> 자식 클래스로(아래 방향으로) 캐스팅
+- 특정 자식객체임이 확인 되어야만 캐스팅이 가능하다.
+- instanceof로 객체의 타입을 확인해야 한다.
+
 <h4>24/06/05</h4>
 
 <h3>상속(inheritance)</h3>
