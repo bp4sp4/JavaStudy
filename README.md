@@ -1,6 +1,30 @@
 # JavaStudy
 ## 부지런히 쓰기 꾸준함이 중요 24/05/20(월) 시작
 
+<h4>24/06/08</h4>
+
+<h3>추상 클래스 (Abstract Class) 구현이 없는 메소드</h3>
+
+~~~
+public abstract class Animal {
+
+    // 추상메소드
+    public abstract void cry();
+
+    public void eat() {
+        System.out.println("냠냠");
+    }
+}
+~~~
+- 구현내용이 없는 메소드를 추상 메소드 라고 한다.
+- abstract 키워드를 통해서 구분해준다.
+
+- 추상 클래스 (Abstract Class)
+	- 추상 메소드가 하나라도 있는 클래스를 추상 클래스 라고 한다.
+	- 추상 클래스는 그 자체로 객체를 생성할 수 없다.
+	- 추상 클래스를 상속받은 클래스는 해당 메소드를 필수적으로 구현해야 한다.
+	- 상속을 통해서만 객체를 생성해서 사용할 수 있다.
+
 <h4>24/06/07</h4>
 
 java.lang
