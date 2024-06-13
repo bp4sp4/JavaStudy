@@ -1,6 +1,32 @@
 # JavaStudy
 ## 부지런히 쓰기 꾸준함이 중요 24/05/20(월) 시작
 
+<h4>클래스로 만든 리스트 가져오기 </h4>
+
+~~~
+	Member member1 = new Member("박상훈", "010-1111-1111");
+		
+		List<Member> memberList = new ArrayList<>();
+		memberList.add(member1);
+		memberList.add(new Member("유재석", "010-5555-1111"));
+		memberList.add(new Member("지석진", "010-3322-4422"));
+		memberList.add(new Member("유재석", "010-5511-1234"));
+		
+		System.out.println(member1);
+		System.out.println(memberList);
+		
+		Member member2 = memberList.get(2);
+		System.out.println(member2);
+		
+		// 멤버 이름 출력 : 박상훈님
+		System.out.println(member1.getName() + "님");
+		
+		
+		for(Member member:memberList) {
+			System.out.println(member.getName() + "님");
+		}
+~~~
+
 <h4>24/06/12</h4>
 
 <h3>List</h3>
