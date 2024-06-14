@@ -1,6 +1,22 @@
 # JavaStudy
 ## 부지런히 쓰기 꾸준함이 중요 24/05/20(월) 시작
 
+<h4>2406/14(금)</h4>
+<h2>Hash 키 값 찾기 </h2>
+
+~~~
+
+// 키 목록 얻어 오기
+// 키들의 목록에서 반복문으로 키를 하나씩 얻어 온다.
+	
+		Set<String> keySet = memberMap.keySet();
+		
+		for(String id:keySet) {
+			String value = memberMap.get(id);
+			System.out.println(value);
+		}
+
+~~~
 
 <h4>24/06/13</h4>
 <h3>클래스로 만든 리스트 가져오기 </h3>
